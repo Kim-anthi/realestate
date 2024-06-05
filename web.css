@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: "poppins", sans-serif;
+}
+.index{
+   background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.form{
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    overflow: hidden;
+
+}
+.login{
+    background-color: lightsalmon;
+    height: max(100%);
+    overflow-y: scroll;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: aliceblue;
+    overflow: hidden;
+
+}
+ul {
+    li {
+        float: left;
+        padding-right: 20px;
+
+        display: block;
+        text-decoration: none;
+
+    }
+}
+
+.h{
+    text-align: center;
+
+}
+
+.container-fluid{
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.home{
+    background-image: url("background1.png");
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: max(100%);
+    overflow-y: scroll;
+}
+.h1{
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+.foot{
+    text-align: center;
+    padding-top: 200px;
+
+}
+.text{
+    color: cyan;
+}
+.f2{
+    background-color: #565e64;
+    text-align: center;
+}
+.pf{
+    padding-bottom: 200px;
+}
+
+.pic{
+    float: right;
+    padding-top: 0;
+    display: flex;
+    width: 45%;
+}
+.about{
+    background-color: #ffc107;
+}
+.abt{
+    float: left;
+    display: flex;
+}
+.contact, .cont{
+    background-image: url("background2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+
